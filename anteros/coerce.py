@@ -12,7 +12,7 @@ import sys
 # Load Properties
 from anteros import properties
 
-# Setuop Logger
+# Setup Logger
 import logging
 from logging import config as logging_config
 logging_config.fileConfig(properties.LOGGING_CONFIG)
